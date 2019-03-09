@@ -24,6 +24,6 @@ public class Solution {
         inputStream.reset();
         outputStream.flush();
         //okay?
-        hdshfkjds
+        11111
     }
 }
