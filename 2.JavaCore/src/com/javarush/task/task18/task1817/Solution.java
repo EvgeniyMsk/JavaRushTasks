@@ -1,7 +1,7 @@
-package com.javarush.task.task18.task1809;
+package com.javarush.task.task18.task1817;
 
 /* 
-Реверс файла
+Пробелы
 */
 
 public class Solution {
