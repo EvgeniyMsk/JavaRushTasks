@@ -5,6 +5,12 @@ package com.javarush.task.task18.task1820;
 */
 
 import java.io.*;
+import java.util.Collection;
+import java.util.Map;
+import java.util.Set;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
+import java.util.function.Function;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
@@ -33,4 +39,5 @@ public class Solution {
 
 
     }
+
 }
