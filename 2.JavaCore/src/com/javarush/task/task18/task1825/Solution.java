@@ -24,6 +24,7 @@ public class Solution {
         }
         fileName = partFile.get( 0 ).substring( 0, partFile.get( 0 ).indexOf( ".part" ) );
 reader.close();
+
         for (String string:partFile) {
             FileInputStream fileInputStream = new FileInputStream( string );
             byte[] buffer = new byte[fileInputStream.available()];
@@ -32,7 +33,7 @@ reader.close();
             fileInputStream.close();
         }
         FileOutputStream fileOutputStream = new FileOutputStream( fileName );
-        for (int i=1; i< container.size()-1; i++){
+        for (int i=1; i<= container.size(); i++){
             fileOutputStream.write( container.get( i ) );
         }
         fileOutputStream.close();
