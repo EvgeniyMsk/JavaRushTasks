@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="no msg">
+      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
     <ignored path="JavaRushTasks.iws" />
@@ -37,8 +38,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="JAVA" value="31" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="UNKNOWN" value="15" />
         </counts>
       </usages-collector>
@@ -55,25 +56,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Solution.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-          <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Условие.jrtc">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Условие.jrtc">
           <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
         </entry>
       </file>
@@ -258,6 +247,15 @@
             <path>
               <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task18" type="462c0819:PsiDirectoryNode" />
+              <item name="task1827" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
               <item name="8.Games" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,7 +334,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Evgeniy/Desktop/JavaRushTasks/JavaRushTasks/2.JavaCore/src/com/javarush/task/task15/task1531/Условие.jrtc" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557611381719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557682701986" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -527,7 +525,7 @@
       <workItem from="1485162014696" duration="83000" />
       <workItem from="1485177835943" duration="100000" />
       <workItem from="1552210109369" duration="9056000" />
-      <workItem from="1557681449292" duration="613000" />
+      <workItem from="1557681449292" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="okay?">
       <created>1552142725111</created>
@@ -641,11 +639,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557610711000</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="no msg">
+      <created>1557682080392</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557682080392</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14965000" />
+    <option name="totallyTimeSpent" value="15833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,7 +663,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60982656" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" sideWeight="0.39146802" side_tool="true" weight="0.23177083" />
@@ -675,10 +679,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4946695" weight="0.14859003" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49413645" visible="true" weight="0.14859003" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49840087" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49010417" weight="0.38257173" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51599145" side_tool="true" visible="true" weight="0.2483731" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.14859003" />
       <window_info active="true" anchor="bottom" id="Dependency Viewer" order="11" visible="true" weight="0.32956687" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -779,14 +783,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="no msg" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1804/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1805/Условие.jrtc" />
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1806/Условие.jrtc" />
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1808/Условие.jrtc" />
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1808/Solution.java">
@@ -1000,6 +996,12 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Solution.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Условие.jrtc">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
     </entry>
   </component>
   <component name="masterDetails">
