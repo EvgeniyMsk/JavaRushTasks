@@ -3,7 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1580760148448">
+      <file name="/Dummy.txt" timestamp="1580770202567">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name=".gitignore" timestamp="1580769902287">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Desktop/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1914/Solution.java" timestamp="1580758496022">
