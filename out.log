@@ -1,0 +1,13 @@
+2020-02-04 01:30:37 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-02-04 01:30:37 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-02-04 01:30:37 INFO  PluginTasksProjectComponent.setAutoscrolls(366) - Autoscrolls successfully set
+2020-02-04 01:30:38 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-02-04 01:30:38 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-02-04 01:30:39 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-02-04 01:30:39 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-02-04 01:30:39 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-02-04 01:30:40 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-02-04 01:30:40 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-02-04 01:30:40 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-02-04 01:30:40 INFO  AbstractRestApiClient.startService(71) - EventsService started.
