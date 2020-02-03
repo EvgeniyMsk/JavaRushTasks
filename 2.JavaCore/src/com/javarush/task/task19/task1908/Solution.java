@@ -14,8 +14,8 @@ public class Solution {
         reader.close();
         //String fileName1 = "C:/input.txt";
         //String fileName2 = "C:/output.txt";
-        FileReader fileReader = new FileReader( fileName1 );
-        FileWriter fileWriter = new FileWriter( fileName2 );
+        BufferedReader fileReader = new BufferedReader(new FileReader(fileName1));
+        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(fileName2));
         StringBuilder stringBuilder = new StringBuilder(  );
         while (fileReader.ready()) {
             stringBuilder.append( (char)fileReader.read() );
