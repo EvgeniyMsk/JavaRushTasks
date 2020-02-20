@@ -1,0 +1,43 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1580770202567">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name=".gitignore" timestamp="1580769902287">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1914/Solution.java" timestamp="1580758496022">
+        <mark key="[" line="10" column="8" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="9" column="44" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJ1bmcgbmFtZSA9ICJIZWxsbyI7Cg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJ1bmcgbmFtZSA9ICJIZWxsbyI7Cg==</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
