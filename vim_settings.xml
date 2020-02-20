@@ -1,12 +1,21 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="/Dummy.txt" timestamp="1580770202567">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/acmp/src/Main.java" timestamp="1582234899985">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="15" column="7" />
+        <mark key="." line="15" column="7" />
+        <mark key="^" line="15" column="7" />
+      </file>
       <file name=".gitignore" timestamp="1580769902287">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/acmp/input.txt" timestamp="1582234834961">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Desktop/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1914/Solution.java" timestamp="1580758496022">
@@ -14,13 +23,50 @@
         <mark key="]" line="13" column="0" />
         <mark key="." line="9" column="44" />
       </file>
+      <file name="/fragment.java" timestamp="1582234454846">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/acmp/out/production/acmp/input.txt" timestamp="1582234704659">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps />
     <registers>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJ1bmcgbmFtZSA9ICJIZWxsbyI7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="2" type="4">
+        <text>import java.util.*;
+import java.io.*;
+
+public class Main{
+    public static void main(String[] argv) throws IOException{
+        new Main().run();
+    }
+    PrintWriter pw;
+    Scanner sc;
+    public void run() throws IOException{
+        sc = new Scanner(new File(&quot;input.txt&quot;));
+        int a=sc.nextInt(), b=sc.nextInt();
+        pw = new PrintWriter(new File(&quot;output.txt&quot;));
+        pw.print(a+b);
+        pw.close();
+    }
+}</text>
+      </register>
+      <register name="3" type="4">
+        <text>public class Main {
+
+    public static void main(String[] args)
+    {
+        System.out.println(&quot;Hello World!&quot;);
+    }
+}</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBTdHJ1bmcgbmFtZSA9ICJIZWxsbyI7Cg==</text>
       </register>
     </registers>
@@ -35,8 +81,86 @@
       <history-input />
     </history>
     <shortcut-conflicts>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift ctrl pressed 6</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed I</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
