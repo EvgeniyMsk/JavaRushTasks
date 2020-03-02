@@ -1,6 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="ideavim" shouldLog="false" />
-    <notification groupId="ideavim-sticky" displayType="STICKY_BALLOON" shouldLog="false" />
-  </component>
-</application>
